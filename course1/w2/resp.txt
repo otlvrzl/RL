@@ -1,0 +1,19 @@
+That you have described an MDP and that it is different than your other two.
+That you have described the MDP's states.
+That you have described the MDP's actions.
+That you have described the MDP's rewards.
+
+Self-regulating sauna.
+MDP state: vector of 3 values = {temperature, humidity, amount of people}
+MDP actions: {increase/decrease temperature, increase/decrease humidity} 
+MDP reward: -1 if human needs to manually adjust temperature or humidity
+
+Automatic online advertising buyer for e-commerce website
+MDP state: vector of 3 values = {month of the year, day of the week, time of the day}
+MDP actions: buy 1000 impression on certain website from the list via API call. Each publisher website is a different action
+MDP reward: amount of visitors received from selected action
+
+Automatic MMA fighter
+MDP state: coordinates of agent's and opponent's fists, elbows, knees, foots. 
+MDP actions: voltage to  motors, responsible for all moves
+MDP reward: 1 points for winning the fight, -1 points for loosing the fight, 0 points otherwise
